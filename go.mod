@@ -4,6 +4,8 @@ go 1.23.0
 
 toolchain go1.23.4
 
+replace github.com/rancher/lasso => github.com/chiukapoor/lasso v0.0.0-20241226120549-4e5ac61f5c3b
+
 require (
 	github.com/evanphx/json-patch v5.9.0+incompatible
 	github.com/ghodss/yaml v1.0.0
